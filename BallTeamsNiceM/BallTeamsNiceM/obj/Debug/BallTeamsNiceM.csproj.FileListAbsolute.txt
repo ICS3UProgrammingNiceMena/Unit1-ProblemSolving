@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\bin\Debug\BallTeamsNiceM.exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\bin\Debug\BallTeamsNiceM.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\bin\Debug\BallTeamsNiceM.pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.BallTeam.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Mena, Nice (s407118)\Unit 1 (Problem Solving)\BallTeamsNiceM\BallTeamsNiceM\obj\Debug\BallTeamsNiceM.pdb
