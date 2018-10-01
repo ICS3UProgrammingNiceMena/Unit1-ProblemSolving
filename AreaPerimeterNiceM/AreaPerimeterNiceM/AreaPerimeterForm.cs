@@ -32,12 +32,22 @@ namespace AreaPerimeterNiceM
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             // declare local variables
-            double Length, width, area, perimeter;
+            double length, width, area, perimeter;
 
             //convert the string from each text box to a double
             length = double.Parse(txtLength.Text);
             width = double.Parse(txtWidth.Text);
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblWidth_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-    }
+    
 }

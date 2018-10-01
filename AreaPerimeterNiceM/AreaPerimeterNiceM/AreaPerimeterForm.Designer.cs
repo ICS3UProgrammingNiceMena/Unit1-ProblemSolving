@@ -35,8 +35,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLength = new System.Windows.Forms.TextBox();
+            this.txtWidth = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblLength
@@ -60,6 +60,7 @@
             this.lblWidth.Size = new System.Drawing.Size(113, 25);
             this.lblWidth.TabIndex = 1;
             this.lblWidth.Text = "Width (m)";
+            this.lblWidth.Click += new System.EventHandler(this.lblWidth_Click);
             // 
             // lblPerimeter
             // 
@@ -116,19 +117,20 @@
             this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // textBox1
+            // txtLength
             // 
-            this.textBox1.Location = new System.Drawing.Point(254, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtLength.Location = new System.Drawing.Point(254, 72);
+            this.txtLength.Name = "txtLength";
+            this.txtLength.Size = new System.Drawing.Size(194, 20);
+            this.txtLength.TabIndex = 7;
             // 
-            // textBox2
+            // txtWidth
             // 
-            this.textBox2.Location = new System.Drawing.Point(254, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(194, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtWidth.Location = new System.Drawing.Point(254, 120);
+            this.txtWidth.Name = "txtWidth";
+            this.txtWidth.Size = new System.Drawing.Size(194, 20);
+            this.txtWidth.TabIndex = 8;
+            this.txtWidth.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // AreaPerimeterForm
             // 
@@ -136,8 +138,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(984, 466);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtWidth);
+            this.Controls.Add(this.txtLength);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -161,8 +163,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLength;
+        private System.Windows.Forms.TextBox txtWidth;
     }
 }
 
