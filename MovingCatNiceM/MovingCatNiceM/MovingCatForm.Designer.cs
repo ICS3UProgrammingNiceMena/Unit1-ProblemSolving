@@ -63,7 +63,7 @@
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(152, 22);
+            this.mniExit.Size = new System.Drawing.Size(92, 22);
             this.mniExit.Text = "Exit";
             this.mniExit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -102,6 +102,7 @@
             this.picCardi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picCardi.TabIndex = 0;
             this.picCardi.TabStop = false;
+            this.picCardi.Click += new System.EventHandler(this.picCardi_Click);
             // 
             // Form1
             // 

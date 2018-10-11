@@ -36,18 +36,21 @@ namespace MovingCatNiceM
 
         private void cat1ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            //This assigns the first piccture to resources
             this.picCardi.Image = Properties.Resources.cardi;
 
         }
 
         private void mniCardi2_Click(object sender, EventArgs e)
         {
+            //  this assigns the second picture to resources
             this.picCardi.Image = Properties.Resources.cardi2;
 
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //This closes the program
             this.Close();
 
         }
@@ -55,6 +58,11 @@ namespace MovingCatNiceM
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
          
+        }
+
+        private void picCardi_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

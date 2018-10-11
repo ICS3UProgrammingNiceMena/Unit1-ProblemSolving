@@ -32,8 +32,8 @@
             this.lblWidth = new System.Windows.Forms.Label();
             this.lblPerimeter = new System.Windows.Forms.Label();
             this.lblArea = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblPerimeterAnswer = new System.Windows.Forms.Label();
+            this.lblAreaAnswer = new System.Windows.Forms.Label();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.txtLength = new System.Windows.Forms.TextBox();
             this.txtWidth = new System.Windows.Forms.TextBox();
@@ -86,23 +86,24 @@
             this.lblArea.Text = "The area is :";
             this.lblArea.Click += new System.EventHandler(this.lblArea_Click);
             // 
-            // label5
+            // lblPerimeterAnswer
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(322, 220);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblPerimeterAnswer.AutoSize = true;
+            this.lblPerimeterAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPerimeterAnswer.Location = new System.Drawing.Point(322, 220);
+            this.lblPerimeterAnswer.Name = "lblPerimeterAnswer";
+            this.lblPerimeterAnswer.Size = new System.Drawing.Size(0, 24);
+            this.lblPerimeterAnswer.TabIndex = 4;
+            this.lblPerimeterAnswer.Click += new System.EventHandler(this.lbPerimeterAnswer_Click);
             // 
-            // label6
+            // lblAreaAnswer
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(322, 256);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.lblAreaAnswer.AutoSize = true;
+            this.lblAreaAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAreaAnswer.Location = new System.Drawing.Point(322, 256);
+            this.lblAreaAnswer.Name = "lblAreaAnswer";
+            this.lblAreaAnswer.Size = new System.Drawing.Size(0, 24);
+            this.lblAreaAnswer.TabIndex = 5;
             // 
             // btnCalculate
             // 
@@ -141,14 +142,14 @@
             this.Controls.Add(this.txtWidth);
             this.Controls.Add(this.txtLength);
             this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblAreaAnswer);
+            this.Controls.Add(this.lblPerimeterAnswer);
             this.Controls.Add(this.lblArea);
             this.Controls.Add(this.lblPerimeter);
             this.Controls.Add(this.lblWidth);
             this.Controls.Add(this.lblLength);
             this.Name = "AreaPerimeterForm";
-            this.Text = "Form1";
+            this.Text = "AreaPerimeterForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,8 +161,8 @@
         private System.Windows.Forms.Label lblWidth;
         private System.Windows.Forms.Label lblPerimeter;
         private System.Windows.Forms.Label lblArea;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblPerimeterAnswer;
+        private System.Windows.Forms.Label lblAreaAnswer;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.TextBox txtLength;
         private System.Windows.Forms.TextBox txtWidth;
